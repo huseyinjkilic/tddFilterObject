@@ -1,5 +1,7 @@
 package huseyin;
 
+import java.util.List;
+
 class Element {
 
     private int num;
@@ -39,6 +41,24 @@ class Element {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    public List<Element> getElementListForBelowAge() {
+
+        return null;
+    }
+
+    public List<Element> getElementListForOverAge() {
+
+    }
+
+    public List<Element> getDistinctElementListForBelowAge() {
+
+        return null;
+    }
+
+    public List<Element> getDistinctElementListForOverAge() {
+
     }
 
 }
