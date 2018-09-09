@@ -1,6 +1,8 @@
 package huseyin;
 
 import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 class Element {
 
@@ -43,12 +45,6 @@ class Element {
         this.age = age;
     }
 
-    public List<Element> getElementListForOverAge(int age) {
 
-    }
-
-    public List<Element> getDistinctElementListForOverAge(int age) {
-
-    }
 
 }
