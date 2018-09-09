@@ -43,21 +43,11 @@ class Element {
         this.age = age;
     }
 
-    public List<Element> getElementListForBelowAge() {
-
-        return null;
-    }
-
-    public List<Element> getElementListForOverAge() {
+    public List<Element> getElementListForOverAge(int age) {
 
     }
 
-    public List<Element> getDistinctElementListForBelowAge() {
-
-        return null;
-    }
-
-    public List<Element> getDistinctElementListForOverAge() {
+    public List<Element> getDistinctElementListForOverAge(int age) {
 
     }
 
